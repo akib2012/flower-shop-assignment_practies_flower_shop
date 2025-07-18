@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.lato-regular-font{
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shaered style here */
+
+
+.primary-button{
+    height: 64px;
+    width: 180px;
+    background-color: rgba(229, 84, 115, 1);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.max-width{
+    max-width: 1440px;
+    margin: 180px auto;
+}
+
+
+
+
+
+
+
+
+/* header design start  */
+.flower-head{
+    background-color: rgba(229, 84, 115, 0.1);
+}
+.container{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 100px;
+    align-items: center;
+    
+}
+
+.header-container-h2{
+    font-size: 4.7rem;
+    font-weight: 600;
+}
+
+.header-container-p{
+    margin: 32px 0px;
+    color: rgba(39, 39, 39, 0.6);
+    line-height: 30px;
+}
+.header-container{
+    margin-left: 240px;
+}
+
+.header-image{
+    margin-right: 240px;
+    margin-top: 50px;
+}
+
+
+
+/* feature part design here */
+
+.feture-h3{
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+}
+.feture-p{
+    text-align: center;
+    line-height: 20px;
+    margin: 10px 0px 50px 0px;
+    color: rgba(39, 39, 39, 0.6);
+}
+
+.img-card{
+    max-height: 605px;
+    background-color: rgba(167, 33, 98, 0.15);
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+.img-card1{
+    max-height: 605px;
+    background-color: rgba(5, 151, 160, 0.15);
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+
+    position: relative;
+}
+.img-card2{
+    max-height: 605px;
+    background-color: rgba(71, 125, 17, 0.15);
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+
+.card-img{
+    width: 310px;
+    height: 430px;
+    padding: 110px 75px 0px 75px;
+    
+}
+
+.emne{
+    margin-top: 90px;
+    margin-left: 150px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+
+    position: absolute;
+    margin-top: 30px;
+
+}
+
+.img-gelley{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+}
+
+/* service part style here start */
+
+.service{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+    column-gap: 100px;
+    background-color: rgba(39, 39, 39, 0.05);
+    height: 320px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+    
+}
+
+
+
+.item-des{
+    
+    color: rgba(39, 39, 39, 0.8);
+    /* font-size: 1.5rem;
+    font-weight: 600; */
+   
+
+    
+}
+
+/* sale design here */
+
+.sale{
+    background-color: rgba(229, 84, 115, 0.05);
+    height: 520px;
+    margin-bottom: 100px; 
+    display: flex;
+    justify-content: center;
+    gap: 190px;
+    align-items: center;
+}
+
+.sale-title{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding-left: 18px;
+    text-indent: -105px;
+}
+.off{
+    color: rgba(229, 84, 115, 1);
+}
+
+.sale-img img{ 
+    width: 328px;
+    height: 420px;
+}
+
+.sale-des{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    line-height: 30px;
+    margin: 24px 2px;
+    text-indent: -120px
+
+}
+
+.sign-up-button{
+    margin-left: 80px;
+}
