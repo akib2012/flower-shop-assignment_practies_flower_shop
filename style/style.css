@@ -202,3 +202,99 @@
 .sign-up-button{
     margin-left: 80px;
 }
+
+
+
+/* insrtagrap part design herre */
+
+
+.insta-h3, .insta-p{
+    text-align: center;
+    padding: 10px;
+}
+
+/* .insta-h3{
+    font-weight: 5rem;
+    font-weight: bolder;
+
+} */
+.insta-h3{
+    font-size: 2.5rem;
+    font-weight: bolder;
+
+}
+
+.insta-p{
+    color: rgba(39, 39, 39, 0.6);
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+
+.instragram-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 24px;
+
+}
+
+
+
+/* deals part design here start */
+.deal-h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: -30px;
+    margin-bottom: 20px;
+}
+.deal-p{
+    margin-left: 60px;
+    color: rgba(39, 39, 39, 0.6);
+}
+.deals-container{
+    position: relative;
+
+}
+
+.deals-position{
+    position: absolute;
+    bottom: 180px;
+    left: 580px;
+}
+
+input{
+    margin-left: -320px;
+    margin-top: 50px;
+    height: 64px;
+    width: 680px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: none;
+
+}
+
+
+
+/* 
+footer desgn start here */
+
+footer{
+    background-color: black;
+    height: 300px;
+    
+}
+
+.footer-h2, .footer-p , .p{
+    text-align: center;
+    color: white;
+    
+}
+
+.fot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
